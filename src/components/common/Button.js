@@ -13,12 +13,13 @@ const Button = ({ onPress, children }) => {
 
 const styles = {
   buttonStyle: {
-    flex: 1,
+    // flex: 1,
     alignSelf: 'stretch',
     backgroundColor: '#fff',
     borderRadius: 5,
     borderWidth: 1,
     borderColor: '#007aff',
+    marginTop: 20,
     marginLeft: 5,
     marginRight: 5
   },
